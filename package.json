@@ -7,8 +7,11 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
+    "react-device-detect": "^1.13.1",
     "react-dom": "^16.13.1",
+    "react-intl-universal": "^2.4.1",
     "react-scripts": "3.4.3",
+    "react-toastify": "^6.0.8",
     "styled-components": "^5.1.1"
   },
   "scripts": {
