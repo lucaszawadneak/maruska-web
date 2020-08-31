@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import { isAndroid, isIOS, isMobile } from "react-device-detect";
+import { isAndroid, isIOS } from "react-device-detect";
 
 import "react-toastify/dist/ReactToastify.css";
 
@@ -35,11 +35,6 @@ function App() {
       });
     }
   }, [mobile]);
-
-  const handleAndroid = () => {
-    window.location.href =
-      "https://play.google.com/store/apps/details?id=com.lcdev.maruska";
-  };
 
   return (
     <Container imageUrl={require("./assets/img/background.png")}>
